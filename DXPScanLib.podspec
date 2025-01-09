@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DXPScanLib"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "DXP Scan Lib."
 
   # This description is used to generate tags and improve search results.
@@ -128,6 +128,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'LBXScan/LBXZXing','~> 2.5'
   spec.dependency 'DXPFontManagerLib'
   spec.dependency 'Masonry'
+  spec.static_framework = true
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
